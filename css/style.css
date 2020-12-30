@@ -4,7 +4,7 @@
 }
 .nav-link{
     color: 	#008080 !important;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Anton', sans-serif;
 
 }
@@ -13,7 +13,7 @@
     width: 40% ;
 }
 .navbar-nav{
-    margin-right: 15%;
+    margin-right: 10%;
 }
 .nav-item{
     margin-right: 10%;
