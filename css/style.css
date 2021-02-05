@@ -1,4 +1,7 @@
 
+*{
+    scroll-behavior: smooth;
+}
 .navbar{
     background-color:  #FF7F50;
 }
@@ -12,6 +15,14 @@
     height: 40%;
     width: 40% ;
 }
+.navbar-toggler{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
 .navbar-nav{
     margin-right: 10%;
 }
@@ -20,13 +31,13 @@
     margin-left: 10%;
 }
 .header{
-    /* height: 87.5vh !important; */
+    height: 87.5vh !important;
     background: url("../images/header-bc.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 .header1{
-    /* height: 87.5vh !important; */
+    height: 87.5vh !important;
     background-color: #0080807c;
 }
 .container{
@@ -50,7 +61,7 @@
     text-decoration: underline;
 }
 .skills{
-    height: 88vh !important;
+    /* height: 88vh !important; */
     background-color: whitesmoke;
     color: teal;
 }
@@ -124,12 +135,19 @@
     color: teal;
 }
 .img{
-    height: 50%;
+    height: 90%;
     display: block;
     margin-left: auto;
      margin-right: auto;
-    width: 50%;
-    margin-top: 5vh;
+    width: 90%;
+    /* margin-top: 5vh; */
+    border-radius: 50%;
+    border: 10px solid whitesmoke;
+    box-shadow: 2px 3px 5px black;
+    box-sizing: border-box;
+}
+.about-me{
+    margin-top: 10%;
 }
 .con{
     color: white;
@@ -138,7 +156,11 @@
     .con {
         padding-left: 8vh;
     }
-  }
+    .header, .header1{
+        height: auto !important;
+        /* height: fit-content !important; */
+    }
+  } 
   @media only screen and (max-width: 768px) {
     .naya1{
         transform: rotate(0deg);
@@ -153,5 +175,3 @@
         font-size: 30px;
     }
   }
-  
-  
