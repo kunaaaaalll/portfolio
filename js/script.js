@@ -21,3 +21,9 @@ $(function() {
     }, 3600);
   });
   
+
+  // $(function(){
+	
+  //   $(".form-control").hover(function(){
+  //         $(this).toggleClass("newhover");
+  //       });
