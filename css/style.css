@@ -73,6 +73,12 @@
     color: teal;
     margin-top: -30vh;;
 }
+@media only screen and (max-width: 768px){
+    #skills{
+        margin-top: auto;
+    }
+}
+
 .svg{
     /* height: 10vh !important; */
     width: auto;
@@ -465,4 +471,10 @@ footer{
     padding-left: 1vh;
     padding-right: 1vh;
     padding-top: 1vh;
+    /* background-color: ; */
+    color: teal;
+}
+.icons:hover{
+    transform: scale(1.2);
+    transition:ease-in 0.5ms;
 }
