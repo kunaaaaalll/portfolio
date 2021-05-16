@@ -71,6 +71,7 @@
     /* margin-top: 5vh !important; */
     /* background-color: #ff7f50c7 !important; */
     color: teal;
+    /* background-color: #999; */
     margin-top: -30vh;;
 }
 @media only screen and (max-width: 768px){
@@ -119,6 +120,7 @@
     text-align: right;
 }
 .naya1{
+    /* background-color: #9b9b9b; */
     transform: rotate(180deg);
 }
 /* #contact{
