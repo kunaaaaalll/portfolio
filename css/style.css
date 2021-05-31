@@ -2,6 +2,12 @@
 *{
     scroll-behavior: smooth;
 }
+.icon-nav{
+    color: #FF7F50;
+}
+.progress{
+    background-color: #d5d9dd;
+}
 .navbar{
     background-color:  #FF7F50;
     box-shadow: 0 0 15px 5px rgb(0 0 0 / 30%);
